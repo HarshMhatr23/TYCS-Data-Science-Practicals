@@ -1,0 +1,8 @@
+x<-rnorm(100)
+y<-rnorm(100)
+t.test(x,mu =5)
+t.test(x,y)
+t.test(x,mu =2, alternativ = 'greater')
+wilcox.test(x,exact = FALSE)
+wilcox.test(x,y)
+cor.test(mtcars$mpg,mtcars$hp)
